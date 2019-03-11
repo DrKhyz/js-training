@@ -9,6 +9,8 @@
 
 // Your code :
 
+let sameSign = (a, b) => a < 0 && b < 0 ? true : a == b ? true : a > 0 && b > 0 ? true : a == 0 && b == 0 ? true : false;
+
 //* Begin of tests
 const assert = require('assert')
 

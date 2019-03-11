@@ -10,6 +10,15 @@
 
 // Your code :
 
+function multiply(a, b){
+    let sum = 0;
+    if(b<0){ b = -b; a = -a;}
+    for(let i = 0; i < b ; i++){
+        sum += a;
+    }
+    return sum;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

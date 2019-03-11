@@ -12,6 +12,8 @@
 
 // Your code :
 
+let sign = (a) => a == 0 ? 0 : a > 0 ? 1 : -1;
+
 //* Begin of tests
 const assert = require('assert')
 

@@ -6,6 +6,10 @@
  *
  */
 
+let total = num => num.reduce(function add(accumulator, a) {
+    return accumulator + a;
+});
+
 
 //* Begin of tests
 const assert = require('assert')
