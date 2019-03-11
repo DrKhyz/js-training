@@ -10,10 +10,13 @@
  *
  */
 
-
+function jadenCase(str){
+    return str.split(' ').map(item => item[0].toUpperCase() + item.slice(1).toLowerCase()).join(' ');
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(jadenCase('str'), 'Str')
+assert.strictEqual(jadenCase('la petite maison dans la pRairie'), 'La Petite Maison Dans La Prairie')
 // End of tests */

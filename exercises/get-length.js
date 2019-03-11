@@ -9,6 +9,8 @@
 
 // Your code :
 
+let getLength = str => str.length;
+
 //* Begin of tests
 const assert = require('assert')
 
